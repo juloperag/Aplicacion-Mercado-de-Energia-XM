@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "Código": "EPMC", "Nombre": "EPM COMERCIALIZACION", "Tipo": "Comercializador" },
+    { "Código": "ENDG", "Nombre": "EMGESA", "Tipo": "Comercializador" },
+    { "Código": "ISAG", "Nombre": "ISA", "Tipo": "Generador" }
+  ]
+}

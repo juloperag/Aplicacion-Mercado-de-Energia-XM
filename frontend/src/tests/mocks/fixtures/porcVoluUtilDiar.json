@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "Embalse": "GUATAPE", "Nombre": "GUATAPE", "Valor": 75.5, "Fecha": "2024-01-15" },
+    { "Embalse": "TOPOCORO", "Nombre": "TOPOCORO", "Valor": 45.3, "Fecha": "2024-01-15" },
+    { "Embalse": "PENOL", "Nombre": "PENOL", "Valor": 88.2, "Fecha": "2024-01-15" }
+  ]
+}

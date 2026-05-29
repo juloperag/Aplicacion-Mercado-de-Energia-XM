@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "Agente": "EPMC", "Nombre": "EPM COMERCIALIZACION", "Valor": 450.25, "Fecha": "2024-01-15" },
+    { "Agente": "ENDG", "Nombre": "EMGESA", "Valor": 380.10, "Fecha": "2024-01-15" },
+    { "Agente": "ISAG", "Nombre": "ISA", "Valor": 290.75, "Fecha": "2024-01-15" }
+  ]
+}

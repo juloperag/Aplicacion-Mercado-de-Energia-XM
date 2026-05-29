@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "Recurso": "TBST", "Nombre": "TERMODORADA", "Valor": 150.5, "Fecha": "2024-01-15" },
+    { "Recurso": "GVIO", "Nombre": "GUAVIO", "Valor": 200.3, "Fecha": "2024-01-15" },
+    { "Recurso": "EPFV", "Nombre": "EL PASO", "Valor": 80.2, "Fecha": "2024-01-15" },
+    { "Recurso": "ALME", "Nombre": "ALMENDARES", "Valor": 120.8, "Fecha": "2024-01-15" },
+    { "Recurso": "CHEU", "Nombre": "CHEUQUITA", "Valor": 95.4, "Fecha": "2024-01-15" }
+  ]
+}

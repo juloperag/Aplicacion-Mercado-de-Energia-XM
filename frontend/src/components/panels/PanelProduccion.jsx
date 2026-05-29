@@ -121,10 +121,11 @@ export default function PanelProduccion() {
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         <div className="flex flex-col sm:flex-row gap-4 items-end">
           <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="start-date-produccion" className="block text-sm font-medium text-gray-700 mb-2">
               Fecha de inicio
             </label>
             <input
+              id="start-date-produccion"
               type="date"
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
@@ -133,10 +134,11 @@ export default function PanelProduccion() {
             />
           </div>
           <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="end-date-produccion" className="block text-sm font-medium text-gray-700 mb-2">
               Fecha de fin
             </label>
             <input
+              id="end-date-produccion"
               type="date"
               value={endDate}
               disabled

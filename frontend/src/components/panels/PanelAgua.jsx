@@ -142,11 +142,12 @@ export default function PanelAgua() {
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         {/* Reservoir Selector */}
         <div className="mb-6">
-          <label className="block text-sm font-medium text-gray-700 mb-2">
+          <label htmlFor="reservoir-search" className="block text-sm font-medium text-gray-700 mb-2">
             Selecciona embalses
           </label>
           <div className="relative mb-3">
             <input
+              id="reservoir-search"
               type="text"
               placeholder="Busca un embalse..."
               value={searchTerm}
@@ -209,10 +210,11 @@ export default function PanelAgua() {
         {/* Date Range */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="start-date-agua" className="block text-sm font-medium text-gray-700 mb-2">
               Fecha de inicio
             </label>
             <input
+              id="start-date-agua"
               type="date"
               value={startDate}
               onChange={(e) => setStartDate(e.target.value)}
@@ -220,10 +222,11 @@ export default function PanelAgua() {
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="end-date-agua" className="block text-sm font-medium text-gray-700 mb-2">
               Fecha de fin
             </label>
             <input
+              id="end-date-agua"
               type="date"
               value={endDate}
               onChange={(e) => setEndDate(e.target.value)}

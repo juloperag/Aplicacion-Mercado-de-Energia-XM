@@ -83,10 +83,11 @@ export default function PanelPrecios() {
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
         <div className="flex flex-col sm:flex-row gap-4 items-end">
           <div className="flex-1">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="datepicker-precios" className="block text-sm font-medium text-gray-700 mb-2">
               Selecciona una fecha
             </label>
             <input
+              id="datepicker-precios"
               type="date"
               value={selectedDate}
               onChange={(e) => setSelectedDate(e.target.value)}

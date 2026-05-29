@@ -108,11 +108,12 @@ export default function PanelConsumo() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           {/* Agent Selector with Search */}
           <div className="relative">
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="agent-search" className="block text-sm font-medium text-gray-700 mb-2">
               Agente Comercializador
             </label>
             <div className="relative">
               <input
+                id="agent-search"
                 type="text"
                 placeholder="Busca un agente..."
                 value={searchTerm}
@@ -142,10 +143,11 @@ export default function PanelConsumo() {
 
           {/* Month Picker */}
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">
+            <label htmlFor="month-picker" className="block text-sm font-medium text-gray-700 mb-2">
               Mes de consulta
             </label>
             <input
+              id="month-picker"
               type="month"
               value={month}
               onChange={(e) => setMonth(e.target.value)}

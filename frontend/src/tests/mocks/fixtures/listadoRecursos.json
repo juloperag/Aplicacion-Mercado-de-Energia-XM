@@ -1,0 +1,9 @@
+{
+  "data": [
+    { "Código": "TBST", "Nombre": "TERMODORADA", "Despacho": "Despacho Central" },
+    { "Código": "GVIO", "Nombre": "GUAVIO", "Despacho": "Despacho Central" },
+    { "Código": "EPFV", "Nombre": "EL PASO", "Despacho": "No Central" },
+    { "Código": "ALME", "Nombre": "ALMENDARES", "Despacho": "Despacho Central" },
+    { "Código": "CHEU", "Nombre": "CHEUQUITA", "Despacho": "No Central" }
+  ]
+}
