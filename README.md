@@ -60,7 +60,7 @@ frontend/
 
 1. **Clonar el repositorio**
    ```bash
-   git clone <url-del-repositorio>
+   git clone https://github.com/juloperag/Aplicacion-Mercado-de-Energia-XM.git
    cd Data-Energy
    ```
 
@@ -168,10 +168,4 @@ https://servapibi.xm.com.co
 - La aplicación es **solo lectura**, no modifica datos
 - El rango máximo por consulta es **30 días** (se fragmenta automáticamente)
 
-## Licencia
 
-Incluida en el archivo [LICENSE](LICENSE)
-
-## Soporte
-
-Para reportar problemas o sugerencias, contacta al equipo de desarrollo.
